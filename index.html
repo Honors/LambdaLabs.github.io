@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<head>
+  <title>Lambda Labs Ltd.</title>
+  <style>
+    body {
+      background: #fff;
+      margin: 0;
+      padding: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+    }
+    #wrapper {
+      position: relative;
+      margin-top: 220px;
+    }
+    #content {
+      width: 500px;
+      margin: auto;
+      padding: 20px 0;
+    }
+    #footer {
+      width: 100%;
+      height: 100px;
+      border-top: 1px dashed black;
+    }
+    h2 {
+      margin: 0;
+      padding: 0;
+    }
+    #banner {
+      position: absolute;
+      background: url(cols.jpg);
+      background-size: 100%;
+      width: 100%;
+      height: 210px;
+      left: 0;
+      top: 0;
+    }
+    #logo {
+      height: 150px;
+      width: 150px;
+      background: url(LL.png);
+      background-size: 100%;
+      position: absolute;
+      right: 50%;
+      margin-right: 270px;
+      top: 30px;
+    }
+    #about {
+      width: 100%;
+    }
+    @media (max-width: 900px) {
+      #logo {
+        margin-right: -75px;
+      }
+    }
+    @media (max-width: 650px) {
+      #banner {
+       background: #BCCFEC;
+      }
+      #logo {
+        top: 10px;
+        height: 50px;
+	width: 60px;
+	margin-right: -30px;
+      }
+      #banner {
+        height: 70px;
+	padding: 0;
+      }
+      #wrapper {
+        margin-top: 90px;
+      }
+    }
+    @media (max-width: 540px) {
+      #content {
+        width: 100%;
+	box-sizing: border-box;
+	padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="banner">
+    <div id="logo"></div>
+  </div>
+  <div id="wrapper">
+    <div id="content">
+      <div id="about">
+	<h2>About Lambda Labs</h2>
+	<p>Lambda Labs is a software firm dedicated to the creation of useful programs. We
+	   are interested in moving the industry forward through the production of languages,
+	   libraries, tools, and research that help developers to reach better solutions.</p>	 
+
+	<h2>Our Projects</h2>
+	<p>We, as a whole and as individuals, have open-sourced many projects recently. These
+	   projects include a type-system for vanilla JavaScript, a testing suite for Java, a
+	   statistical performance assesser for JavaScript, an API test-suite, and a custom
+	   Lisp dialect.</p>
+	<p>All of these projects began within Lambda Labs to tackle a certain problem, and
+	   were then released into the public that other developers might benefit from them.</p>
+
+	<h2>Our Products</h2>
+	<p>We have made quite a few products, either for sale to consumers or to meet the
+	   needs of a client. Our earliest product was a gaming website, one which grew to
+	   over ten-thousand daily views. We then entered into the app market with tools
+	   for math and chemistry, as well as a tool for saving media to the cloud. We
+	   continue to create new websites and apps for various platforms including iOS,
+	   Android, and Mac.</p>
+
+	<p>For our clients, we have made a social network, a geolocation app, and some
+	   education apps adopted by the local high school diocese. Additionally, we have
+	   made ecommerce websites and business tools for our clients.</p>
+
+	<h2>Our Research</h2>
+	<p>We have conducted research, mostly into the areas of language interpretation
+	   and type-systems, to further our understanding of the field. Additionally, when
+	   we have made tools which closely neighbored research, we have taken the time
+	   to formalize the information into papers.</p>
+      </div>
+    </div>
+  </div>
+  <div id="footer"></div>
+</body>
