@@ -24,7 +24,7 @@ h2 {
 }
 #banner {
   position: absolute;
-  background: url(images/cols.jpg);
+  background: url(/images/cols.jpg);
   background-size: 100%;
   width: 100%;
   height: 210px;
@@ -34,7 +34,7 @@ h2 {
 #logo {
   height: 150px;
   width: 150px;
-  background: url(images/LL.png);
+  background: url(/images/LL.png);
   background-size: 100%;
   position: absolute;
   right: 50%;
